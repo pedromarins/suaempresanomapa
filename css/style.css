@@ -1,20 +1,8 @@
-/*
-Theme Name: Pedro Marins
-Theme URI: http://pedromarins.com/
-Description: Pedro Marins
-
-Author: Pedro Marins
-Author URI: http://about.me/pedromarins/
-Version: 0.01
-
-License: CC BY-NC-SA 3.0
-License URI: http://creativecommons.org/licenses/by-nc-sa/3.0/
-*/
-
 /* CSS Resets */
 
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;margin:0;padding:0}article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block}a img{border:0}figure{position:relative}figure img{width:100%}
 
+/* CSS Content */
 body {
 	background: #52df98; /* Old browsers */
 	background: -moz-linear-gradient(top, #52df98 21%, #238a54 100%); /* FF3.6+ */
@@ -53,7 +41,7 @@ h1 span {
 }
 
 ul {
-	background: url("./images/list.png");
+	background: url("../images/list.png");
 	display: block;
 	height: 427px;
 	width: 980px;
@@ -89,7 +77,7 @@ li {
     width: 100px;
 }
 
-div {
+#venda {
 	float: left;
 	margin: 40px 0 0;
 	width: 980px;
@@ -103,7 +91,7 @@ h2 {
 	padding: 7px 0 0;
 }
 
-a {
+#eu-quero {
 	background: #52df98; /* Old browsers */
 	background: -moz-linear-gradient(top, #52df98 21%, #238a54 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(21%,#52df98), color-stop(100%,#238a54)); /* Chrome,Safari4+ */
@@ -126,5 +114,70 @@ a {
     line-height: 40px;
     text-decoration: none;
     font-size: 22px;
+    border: 1px solid #238a54;
+}
+
+#fancybox-outer {
+	background: #52df98 !important; /* Old browsers */
+	background: -moz-linear-gradient(top, #52df98 21%, #238a54 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(21%,#52df98), color-stop(100%,#238a54)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #52df98 21%,#238a54 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #52df98 21%,#238a54 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #52df98 21%,#238a54 100%) !important; /* IE10+ */
+	background: linear-gradient(top, #52df98 21%,#238a54 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52df98', endColorstr='#238a54',GradientType=0 ) !important; /* IE6-9 */
+}
+
+#fancybox-content {
+	border: 0 !important;
+}
+
+#data {
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 0px -1px 0 #238a54;
+	font-size: 20px;
+	width: 600px;
+	padding: 30px 15px 30px 30px;
+	height: 130px;
+}
+
+#data p {
+	margin: 0 0 20px;
+}
+
+input[type="email"] {
+	color: #238a54;
+	border: 1px solid #238a54;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 5px 0px #FFFFFF;
+	float: left;
+	height: 30px;
+	padding: 5px 10px;
+	margin: 0 20px 0 30px;
+	width: 340px;
+}
+
+input[type="submit"] {
+	background: #52df98; /* Old browsers */
+	background: -moz-linear-gradient(top, #52df98 21%, #238a54 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(21%,#52df98), color-stop(100%,#238a54)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #52df98 21%,#238a54 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #52df98 21%,#238a54 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #52df98 21%,#238a54 100%); /* IE10+ */
+	background: linear-gradient(top, #52df98 21%,#238a54 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52df98', endColorstr='#238a54',GradientType=0 ); /* IE6-9 */
+
+	color: #FFFFFF;
+	text-shadow: -1px -1px 0 #238a54;
+	display: block;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px 0px #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 18px;
     border: 1px solid #238a54;
 }
